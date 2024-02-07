@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "PsXqV2pzeDtdFZrEjpU9cVgUVy9Cp+Wq38tVdZE0IDBFB2XLCcexwkyX1YVIBd6WoggKd+99ZYrSd7U12H6TTw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yuri-\\Downloads\\Educacao\\curso_clean_arq\\CleanArchMvc\\CleanArchMvcApplication\\CleanArchMvc.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yuri-\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\yuri-\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\yuri-\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\yuri-\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\yuri-\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

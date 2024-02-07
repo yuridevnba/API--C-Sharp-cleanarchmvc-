@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CleanArchMvc",
+    "\\CleanArchMvc.Domain.Tests\\bin",
+    "\\CleanArchMvc.Domain.Tests\\obj",
+    "\\CleanArchMvc\\CleanArchMvc.Domain",
+    "\\CleanArchMvc\\CleanArchMvc.Domain\\Interfaces"
+  ],
+  "SelectedNode": "\\CleanArchMvc.Domain.Tests",
+  "PreviewInSolutionExplorer": false
+}

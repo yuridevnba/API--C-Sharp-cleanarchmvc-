@@ -1,0 +1,15 @@
+C:\Users\yuri.silva\Desktop\curso_clean_arq\CleanArchMvc\CleanArchMvcApplication\bin\Debug\net7.0\CleanArchMvcApplication.deps.json
+C:\Users\yuri.silva\Desktop\curso_clean_arq\CleanArchMvc\CleanArchMvcApplication\bin\Debug\net7.0\CleanArchMvcApplication.dll
+C:\Users\yuri.silva\Desktop\curso_clean_arq\CleanArchMvc\CleanArchMvcApplication\bin\Debug\net7.0\CleanArchMvcApplication.pdb
+C:\Users\yuri.silva\Desktop\curso_clean_arq\CleanArchMvc\CleanArchMvcApplication\bin\Debug\net7.0\CleanArchMvc.Domain.dll
+C:\Users\yuri.silva\Desktop\curso_clean_arq\CleanArchMvc\CleanArchMvcApplication\bin\Debug\net7.0\CleanArchMvc.Domain.pdb
+C:\Users\yuri.silva\Desktop\curso_clean_arq\CleanArchMvc\CleanArchMvcApplication\obj\Debug\net7.0\CleanArchMvcApplication.csproj.AssemblyReference.cache
+C:\Users\yuri.silva\Desktop\curso_clean_arq\CleanArchMvc\CleanArchMvcApplication\obj\Debug\net7.0\CleanArchMvcApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yuri.silva\Desktop\curso_clean_arq\CleanArchMvc\CleanArchMvcApplication\obj\Debug\net7.0\CleanArchMvcApplication.AssemblyInfoInputs.cache
+C:\Users\yuri.silva\Desktop\curso_clean_arq\CleanArchMvc\CleanArchMvcApplication\obj\Debug\net7.0\CleanArchMvcApplication.AssemblyInfo.cs
+C:\Users\yuri.silva\Desktop\curso_clean_arq\CleanArchMvc\CleanArchMvcApplication\obj\Debug\net7.0\CleanArchMvcApplication.csproj.CoreCompileInputs.cache
+C:\Users\yuri.silva\Desktop\curso_clean_arq\CleanArchMvc\CleanArchMvcApplication\obj\Debug\net7.0\CleanArchMvcApplication.csproj.CopyComplete
+C:\Users\yuri.silva\Desktop\curso_clean_arq\CleanArchMvc\CleanArchMvcApplication\obj\Debug\net7.0\CleanArchMvcApplication.dll
+C:\Users\yuri.silva\Desktop\curso_clean_arq\CleanArchMvc\CleanArchMvcApplication\obj\Debug\net7.0\refint\CleanArchMvcApplication.dll
+C:\Users\yuri.silva\Desktop\curso_clean_arq\CleanArchMvc\CleanArchMvcApplication\obj\Debug\net7.0\CleanArchMvcApplication.pdb
+C:\Users\yuri.silva\Desktop\curso_clean_arq\CleanArchMvc\CleanArchMvcApplication\obj\Debug\net7.0\ref\CleanArchMvcApplication.dll
