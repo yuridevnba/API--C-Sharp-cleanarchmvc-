@@ -55,6 +55,19 @@ namespace CleanArchMvc.WebUI.Controllers
 
     }
 
+        [HttpGet()]
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null) return NotFound();
+
+            var pessoaDto =  _pessoaService.Remove(id);
+
+            if (pessoaDto == null) return NotFound();
+
+            return View(pessoaDto);
+
+        }
+
         [HttpPost()]
 
         public async Task<IActionResult> Edit(PessoaDTO pessoaDto)
