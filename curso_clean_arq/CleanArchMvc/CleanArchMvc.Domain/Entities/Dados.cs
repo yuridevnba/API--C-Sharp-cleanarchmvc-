@@ -20,8 +20,8 @@ namespace CleanArchMvc.Domain.Entities
 
         public string? Name { get; private set; }
         public string? InicialMae { get; private set; }
-        public decimal Nascimento { get; private set; }
-        public int CPF { get; private set; }
+        public int Nascimento { get; private set; }
+        public string CPF { get; private set; }
         public string? InicialPai { get; private set; }
         //public object Pessoas { get; set; }
         
@@ -30,12 +30,12 @@ namespace CleanArchMvc.Domain.Entities
 
         }
 
-        public Dados(string? name, string? InicialMae, decimal Nascimento, int cpf, string? InicialPai)
+        public Dados(string? name, string? InicialMae, int Nascimento, string cpf, string? InicialPai)
         {
             ValedateDomain( name, InicialMae,  Nascimento, cpf, InicialPai);
         }
 
-        public Dados(int id , string? name, string? InicialMae, decimal Nascimento, int cpf, string? InicialPai)
+        public Dados(int id , string? name, string? InicialMae, int Nascimento, string cpf, string? InicialPai)
         {
             DomainExceptionValidation.When(id < 0, "Invalid Id value.");
             Id = id;
@@ -43,13 +43,13 @@ namespace CleanArchMvc.Domain.Entities
         }
 
 
-        public void Update (string? name, string? InicialMae, decimal Nascimento, int cpf, string? InicialPai, int pessoaId)
+        public void Update (string? name, string? InicialMae, int Nascimento, string cpf, string? InicialPai, int pessoaId)
         {
             ValedateDomain( name, InicialMae, Nascimento, cpf, InicialPai);
             PessoaId = pessoaId;
         }
 
-        private void ValedateDomain(string? name, string? InicialMae, decimal Nascimento, int cpf, string? InicialPai)
+        private void ValedateDomain(string? name, string? InicialMae, int Nascimento, string cpf, string? InicialPai)
         {
             DomainExceptionValidation.When(string.IsNullOrEmpty(name),
                   "Invalid name is require.");
@@ -64,8 +64,8 @@ namespace CleanArchMvc.Domain.Entities
             DomainExceptionValidation.When(InicialMae.Length < 3,
               "Invalid description , too short, minimum 5 characters");
 
-            DomainExceptionValidation.When(cpf < 0,
-             "Invalid cep value");
+            //DomainExceptionValidation.When(cpf < 0,
+            // "Invalid cpf value");
 
 
             DomainExceptionValidation.When(Nascimento < 0,

@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\yuri-\Downloads\Educacao\curso_clean_arq\CleanArchMvc\CleanArchMvc.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/yuri-/Downloads/Educacao/curso_clean_arq/CleanArchMvc/CleanArchMvc.WebUI/Views/Dados/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFkb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/yuri-/Downloads/Educacao/curso_clean_arq/CleanArchMvc/CleanArchMvc.WebUI/Views/Dados/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFkb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

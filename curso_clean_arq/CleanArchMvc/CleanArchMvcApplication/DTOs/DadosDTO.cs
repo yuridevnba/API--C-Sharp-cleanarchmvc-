@@ -28,14 +28,14 @@ namespace CleanArchMvcApplication.DTOs
         public string? InicialMae { get; set; }
 
         [Required(ErrorMessage = "The CPF is Required")]
-        [Column(TypeName = "decimal(18,2)")]
-        [DisplayFormat(DataFormatString = "{0:C2}")]
-        [DataType(DataType.Currency)]
+        //[Column(TypeName = "decimal(18,2)")]
+        //[DisplayFormat(DataFormatString = "{0:C2}")]
+        //[DataType(DataType.Currency)]
         [DisplayName("CPF")]
-        public decimal CPF { get; set; }
+        public string CPF { get; set; }
 
         [Required(ErrorMessage = "The Idade is Required")]
-        [Range(1, 120)] // valor mínimo e máximo
+        [Range(1, 2024 )] // valor mínimo e máximo
         [DisplayName("Nascimento")]
         public int Nascimento { get; set; }
 

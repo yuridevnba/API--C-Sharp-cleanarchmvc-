@@ -1,0 +1,65 @@
+﻿@model CleanArchMvcApplication.DTOs.DadosDTO
+
+@{
+    ViewData["Title"] = "Register new Dados";
+}
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<h2>@ViewData["Title"]</h2>
+
+<form id="categoryForm" method="post">
+
+    <div class="form-horizontal">
+        <hr />
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="CPF" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="CPF" class="form-control" />
+                <span asp-validation-for="CPF" class="text-danger"></span>
+            </div>
+
+
+            <label asp-for="InicialMae" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="InicialMae" class="form-control" />
+                <span asp-validation-for="InicialMae" class="text-danger"></span>
+            </div>
+
+
+
+
+            <label asp-for="Name" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+
+
+
+            <label asp-for="Nascimento" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Nascimento" class="form-control" />
+                <span asp-validation-for="Nascimento" class="text-danger"></span>
+            </div>
+
+
+            <label asp-for="InicialPai" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="InicialPai" class="form-control" />
+                <span asp-validation-for="InicialPai" class="text-danger"></span>
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-success" id="createButton" />
+                <a asp-action="Index" class="btn btn-info">Back to List</a>
+            </div>
+        </div>
+    </div>
+</form>

@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CleanArchMvc.Infra.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240206231301_inicial")]
+    [Migration("20240208230322_inicial")]
     partial class inicial
     {
         /// <inheritdoc />
@@ -27,8 +27,9 @@ namespace CleanArchMvc.Infra.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("CPF")
-                        .HasColumnType("int");
+                    b.Property<string>("CPF")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<string>("InicialMae")
                         .IsRequired()
@@ -43,8 +44,8 @@ namespace CleanArchMvc.Infra.Data.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
 
-                    b.Property<decimal>("Nascimento")
-                        .HasColumnType("decimal(65,30)");
+                    b.Property<int>("Nascimento")
+                        .HasColumnType("int");
 
                     b.Property<int>("PessoaId")
                         .HasColumnType("int");

@@ -42,8 +42,9 @@ namespace CleanArchMvc.Infra.Data.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     InicialMae = table.Column<string>(type: "varchar(200)", maxLength: 200, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    Nascimento = table.Column<decimal>(type: "decimal(65,30)", nullable: false),
-                    CPF = table.Column<int>(type: "int", nullable: false),
+                    Nascimento = table.Column<int>(type: "int", nullable: false),
+                    CPF = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
                     InicialPai = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
