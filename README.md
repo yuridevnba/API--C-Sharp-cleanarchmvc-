@@ -1,14 +1,14 @@
-<!DOCTYPE html>
 
 
-<head>
+
+
   
-    <title>Descrição da API Clean Architecture ASP .NET Core</title>
+    <h1>Descrição da API Clean Architecture ASP .NET Core</h1>
     
-</head>
 
-<body>
-    <div class="container">
+
+
+   
         <h1>Descrição da API Clean Architecture ASP .NET Core</h1>
 
         <p>Este projeto é uma implementação prática dos conceitos da Clean Architecture aplicados a uma API ASP .NET Core. A Clean Architecture refere-se à organização do projeto de forma que seja fácil de entender e de modificar à medida que o projeto cresce, permitindo uma manutenção mais fácil e a adição de novas funcionalidades de forma simplificada.</p>
@@ -24,8 +24,8 @@
         </ul>
 
         <p>Este projeto serve como um exemplo prático de como desenvolver uma aplicação robusta e escalável utilizando os princípios da Clean Architecture no contexto do ASP .NET Core.</p>
-    </div>
-</body>
+   
 
-</html>
+
+
 
