@@ -1,47 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
     <title>Descrição da API Clean Architecture ASP .NET Core</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 0 20px;
-        }
-
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-
-        h2 {
-            color: #555;
-            margin-top: 30px;
-        }
-
-        p {
-            color: #777;
-        }
-
-        ul {
-            margin-left: 20px;
-            color: #777;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-    </style>
+    
 </head>
 
 <body>
